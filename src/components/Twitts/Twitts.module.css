@@ -1,0 +1,16 @@
+.Twitts_results{
+    width: 100%;
+}
+.Twitts_loading{
+    text-align: center;
+}
+
+.Twitts_loading img{
+    height: 100px;
+}
+
+@media screen and (min-width: 768px){
+    .Twitts_results{
+        width: 50vw;
+    }
+}

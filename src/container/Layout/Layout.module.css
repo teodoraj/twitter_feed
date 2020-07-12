@@ -1,0 +1,34 @@
+.Layout{
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+.Header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.Logo{
+    height: 100%;
+}
+.Header_copy{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 12px;
+}
+@media screen and (max-width: 425px){
+    .Header_copy{
+        padding: 0px;
+    }
+}
+
+.Main_container{
+    overflow: hidden;
+    display: block;
+    position: relative;
+    margin-top: 10vh;
+}
+
+

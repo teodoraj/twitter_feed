@@ -1,0 +1,7 @@
+The app should show the latest tweets after the first request
+The list of tweets should update automatically every two seconds
+The older tweets must be pushed down in the page
+The newer tweets should come at the top
+There should be no duplicate tweets on the page
+There should be no skipped or missed tweets on the page
+In case of any failure conditions the tweet updates can pause or stop, but no error messages should be shown to the user.

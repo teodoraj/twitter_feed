@@ -1,0 +1,36 @@
+.Twitt_wrapper{
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-bottom: 2rem;
+}
+.Twitt_img{
+    width: 25%;
+    float: left;
+    display: inline-flex;
+}
+.Twitt_img img{
+    border-radius: 50%;
+    height: 125px;
+    margin:10px auto;
+}
+
+.Twitt_img img:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    background-image: url(../../static/user_icon.svg);
+}
+.Twitt_content{
+    width: 68%;
+    float: left;
+}
+.Twitt_title{
+    margin-bottom: 0.3rem;
+}
+.Twitt_description{
+    font-style: italic;
+}
