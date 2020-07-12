@@ -5,6 +5,7 @@
     justify-content: left;
     margin-bottom: 2rem;
 }
+
 .Twitt_img{
     width: 25%;
     float: left;
@@ -33,4 +34,14 @@
 }
 .Twitt_description{
     font-style: italic;
+}
+
+
+@media screen and (max-width: 768px){
+    .Twitt_img{
+        width: 35%;
+    }
+    .Twitt_content{
+        width: 55%;
+    }
 }
